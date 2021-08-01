@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>daimessdn - linktree</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=DM+Mono&family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+        body {
+            font-family: "DM Sans";
+
+            background-image: url("https://img.wallpapersafari.com/desktop/1920/1080/52/73/H74Frp.jpg");
+            background-size: 100%;
+            background-attachment: fixed;
+        }
+
+        header,
+        main {
+            margin: 10px 10%;
+            padding: 10px;
+            border-radius: 10px;
+
+            color: #fff;
+
+            display: flex;
+            justify-content: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .link-item {
+            width: 30em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #ffffff22;
+            box-shadow: 3px 3px 10px 0 #000;
+            padding: 10px;
+            border-radius: 10px;
+
+            position: relative;
+
+            transform: scale(1);
+
+            transition: all .5s ease;
+        }
+
+        .link-item:hover {
+            background-color: #fff;
+            transform: scale(1.2);
+        }
+
+        .link-item:hover .link-title {
+            color: #000;
+        }
+
+        .link-title,
+        .link-ref {
+            position: relative;
+        }
+
+        .link-ref {
+            margin-top: 20px;
+            margin-bottom: 10px;
+
+            transform: scale(1);
+            transition: transform .5s ease;
+        }
+
+        .link-ref:hover {
+            transform: scale(1.2);
+        }
+
+        .link-ref a,
+        .link-ref a:hover,
+        .link-ref a:visited {
+            color: #fff;
+            border-radius: 10px;
+
+            background-color: #1E555C;
+            width: fit-content;
+            padding: 10px;
+            text-decoration: none;
+        }
+
+        #contact-footer {
+            position: absolute;
+            bottom: 12px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        #contact-footer a,
+        #contact-footer a:hover,
+        #contact-footer a:visited {
+            padding: 10px;
+            font-size: 20px;
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>hello, world!</h1>
+    </header>
+
+    <main>
+        <section class="link-item">
+            <span class="link-title">Need your own business or personal website live and ready?</span>
+
+            <div class="link-ref"><a
+                    href="https://www.fiverr.com/daimessdn/create-web-pages-using-html-css-javascript-and-nodejs?utm_campaign=gigs_show&utm_medium=shared&utm_source=twitter&utm_term=8kbv8z"
+                    target="_blank" rel="nofollow noreferrer">Find me on Fiverr</a></div>
+        </section>
+    </main>
+
+    <nav id="contact-footer">
+        <a href="https://github.com/daimessdn" target="_blank" rel="nofollow noreferrer">
+            <i class="fab fa fa-github"></i>
+        </a>
+
+        <a href="https://twitter.com/daimessdn" target="_blank" rel="nofollow noreferrer">
+            <i class="fab fa fa-twitter"></i>
+        </a>
+
+        <a href="https://linkedin.com/in/dimaswehhh" target="_blank" rel="nofollow noreferrer">
+            <i class="fab fa fa-linkedin"></i>
+        </a>
+
+        <a href="https://daimessdn.itch.io" target="_blank" rel="nofollow noreferrer">
+            itch.io
+        </a>
+    </nav>
+</body>
+
+</html>
